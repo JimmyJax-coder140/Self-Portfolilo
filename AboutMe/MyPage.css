@@ -1,0 +1,206 @@
+b   
+body{
+    width: auto;
+}
+
+.main{
+    /* background-image: url(jamesv.jpg); */
+    background-image: linear-gradient(rgba(228, 159, 165, 0.7),rgba(219,209,59,0.7)), url(jamesv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav.links > a.active{
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+nav.links > a:hover:not(.active) {background-color: #ddd;}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    width:50%;
+    margin-top: 50px;
+    margin-left:100px;
+    color: white;
+}
+
+.links{
+    margin:30px;
+    margin-left: -100px;
+}
+
+.links > a{
+    text-decoration: none;
+    padding: 20px;
+    color: purple
+}
+
+.links > a:hover{
+    color: white;
+    transition:ease-in-out 2s;
+    transition-duration: 2s;
+}
+
+.webpage{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+h2:hover{
+    letter-spacing: 10px;
+    color: brown;
+}
+
+.media-icons{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+   justify-content: space-evenly;
+}
+
+.icon-links{
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+.jimmy{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.jimmy:hover{
+    color: red;
+    transition:ease-in-out 2s;   
+}
+
+.sign-up{
+   background-image: linear-gradient(rgba(238, 83, 22, 0.9),rgba(235, 63, 20, 0.856)), url(background.png);
+   height: 200px;
+}
+
+.details{
+    padding: 90px 90px;
+}
+
+.text:hover{
+    background-color: aqua;
+    transition: ease-in-out 2s;
+    
+}
+.type:hover{
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+    transition:linear 2s;
+}
+ 
+.now{
+    margin: 30px 100px;
+}
+
+
+.details{
+    display: flex;
+}
+
+footer{
+    background-image: linear-gradient(rgba(228, 159, 165, 0.7),rgba(219,209,59,0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.up{
+    padding: 40px;
+    color:red;
+} 
+
+.now > input{
+    text-decoration: none;
+    padding: 20px;
+    border-style: solid;
+    border-color: goldenrod;
+    background-color: red;
+    color: goldenrod;
+} 
+
+.now > input:hover{
+    color: red;
+    background-color: goldenrod;
+}
+
+
+
+/* STYLE SHEET FOR MY PAGE-AboutMe.html  */
+body{
+background-color: rgb(197, 191, 191);
+}
+
+.stack{
+    background-image: radial-gradient(rgba(228, 159, 165, 0.7),rgba(219,209,59,0.7));
+    display:flex;
+}
+
+.stack-web{
+    width: 50%;
+    padding-left: 70px;
+    color: rgb(247, 243, 235);
+}
+.linked{
+    margin:30px;
+    margin-left: 100px;
+}
+
+.linked > a{
+    text-decoration: none;
+    padding: 20px;
+    color: purple;
+}
+nav.linked > a.active{
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+nav.linked > a:hover:not(.active) {background-color: green;}
+
+.mum{
+    margin-left: 60px; 
+}
+.mum:hover{
+    border-radius: 80px;
+    transition: all 2s;
+}
+
+.world{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hello{
+   margin-left: 90px;
+
+}
+
+.click{
+    background-image: radial-gradient(rgba(228, 159, 165, 0.7),rgba(219,209,59,0.7));
+    padding:10px;
+    text-decoration: none;
+    color:purple; 
+}
+.click:hover{
+    background-color:purple;
+    color: rgba(219,209,59,0.7)
+}
+
+a{
+    transition: all 3s;
+    transform-style: preserve-3d;
+}
